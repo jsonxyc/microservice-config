@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active:
+    -dev
+ ---
+ spring:
+  profiles:dev
+  application:
+    name:MICROSERVICE-USER-DEV
+ ---
+ 
+ spring:
+    profiles:test
+    application:
+      name:MICROSERVICE-USER-TEST
+  
